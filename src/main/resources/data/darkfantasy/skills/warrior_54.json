@@ -1,0 +1,59 @@
+{
+  "requirements": [],
+  "positionY": -110.023,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/chestplate_fur.png",
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_54_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": 1,
+      "amount": 0.02,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_54_bonus_1",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.armor",
+      "operation": 0,
+      "amount": 1.0,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_54_bonus_2",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.knockback_resistance",
+      "operation": 1,
+      "amount": 0.05,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:warrior_54",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:warrior_53"
+  ],
+  "oneWayConnections": [],
+  "positionX": -165.109
+}

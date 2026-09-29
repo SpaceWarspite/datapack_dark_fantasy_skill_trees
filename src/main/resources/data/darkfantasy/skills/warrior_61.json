@@ -1,0 +1,90 @@
+{
+  "requirements": [
+    {
+      "skill_id": "darkfantasy:warrior_60",
+      "type": "skilltree:learned_skill"
+    }
+  ],
+  "positionY": 0.0,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_61_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": 1,
+      "amount": 0.06,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_61_bonus_1",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": 1,
+      "amount": 0.04,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_61_bonus_2",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.max_health",
+      "operation": 0,
+      "amount": 2.0,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_61_bonus_3",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.armor",
+      "operation": 0,
+      "amount": 1.0,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_61_bonus_4",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": 1,
+      "amount": 0.03,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:warrior_61",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:warrior_60"
+  ],
+  "oneWayConnections": [],
+  "positionX": 177.0
+}

@@ -1,0 +1,33 @@
+{
+  "requirements": [],
+  "positionY": -78.0,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_04_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": 1,
+      "amount": 0.02,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:warrior_04",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:warrior_03"
+  ],
+  "oneWayConnections": [],
+  "positionX": 18.0
+}

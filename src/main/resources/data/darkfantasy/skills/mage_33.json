@@ -1,0 +1,61 @@
+{
+  "requirements": [],
+  "positionY": 177.961,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/potion_cyan_big.png",
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "tags": [
+    "darkfantasy:mage_specialization"
+  ],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_33_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "operation": 1,
+      "amount": 0.15,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_33_bonus_1",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:spell_resist",
+      "operation": 1,
+      "amount": 0.05,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_33_bonus_2",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "operation": 1,
+      "amount": -0.08,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:mage_33",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:mage_32"
+  ],
+  "oneWayConnections": [],
+  "positionX": 86.797
+}

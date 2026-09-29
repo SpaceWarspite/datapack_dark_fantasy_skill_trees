@@ -1,0 +1,53 @@
+{
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:custom",
+      "minValue": 25,
+      "statId": "minecraft:mob_kills"
+    }
+  ],
+  "positionY": -174.0,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_08_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": 1,
+      "amount": 0.02,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_08_bonus_1",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": 1,
+      "amount": 0.02,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:warrior_08",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:warrior_07"
+  ],
+  "oneWayConnections": [],
+  "positionX": -18.0
+}

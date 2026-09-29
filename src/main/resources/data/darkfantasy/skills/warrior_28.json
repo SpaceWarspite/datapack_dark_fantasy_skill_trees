@@ -1,0 +1,87 @@
+{
+  "requirements": [],
+  "positionY": 111.0,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/chestplate_bronze_fur.png",
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "tags": [
+    "darkfantasy:warrior_doctrine"
+  ],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_28_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.max_health",
+      "operation": 1,
+      "amount": 0.15,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_28_bonus_1",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.armor",
+      "operation": 0,
+      "amount": 2.0,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_28_bonus_2",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.armor_toughness",
+      "operation": 0,
+      "amount": 1.0,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_28_bonus_3",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.knockback_resistance",
+      "operation": 1,
+      "amount": 0.15,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_28_bonus_4",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": 1,
+      "amount": -0.08,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:warrior_28",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:warrior_27"
+  ],
+  "oneWayConnections": [],
+  "positionX": 192.258
+}

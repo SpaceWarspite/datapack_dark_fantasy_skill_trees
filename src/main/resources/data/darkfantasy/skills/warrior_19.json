@@ -1,0 +1,61 @@
+{
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:custom",
+      "minValue": 150,
+      "statId": "minecraft:mob_kills"
+    }
+  ],
+  "positionY": -111.0,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/skull.png",
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "tags": [
+    "darkfantasy:warrior_doctrine"
+  ],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_19_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": 1,
+      "amount": 0.2,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "amount": 0.1,
+      "type": "skilltree:crit_damage",
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "id": "darkfantasy:warrior_19",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:warrior_18"
+  ],
+  "oneWayConnections": [],
+  "positionX": 192.258
+}

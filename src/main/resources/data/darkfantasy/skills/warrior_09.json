@@ -1,0 +1,58 @@
+{
+  "requirements": [],
+  "positionY": -198.0,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/skull.png",
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "amount": 0.04,
+      "type": "skilltree:crit_damage",
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "damage_condition": {
+        "type": "skilltree:none"
+      },
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "chance": 0.02,
+      "enemy_multiplier": {
+        "type": "skilltree:none"
+      },
+      "type": "skilltree:crit_chance",
+      "target_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "id": "darkfantasy:warrior_09",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:warrior_08"
+  ],
+  "oneWayConnections": [],
+  "positionX": -12.728
+}

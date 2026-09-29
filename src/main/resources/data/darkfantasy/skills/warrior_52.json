@@ -1,0 +1,53 @@
+{
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:custom",
+      "minValue": 250,
+      "statId": "minecraft:mob_kills"
+    }
+  ],
+  "positionY": -86.023,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/chestplate_bronze_fur.png",
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_52_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.armor",
+      "operation": 0,
+      "amount": 1.0,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_52_bonus_1",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.max_health",
+      "operation": 0,
+      "amount": 2.0,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:warrior_52",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:warrior_51"
+  ],
+  "oneWayConnections": [],
+  "positionX": -123.54
+}

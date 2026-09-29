@@ -1,0 +1,47 @@
+modLoader="lowcodefml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="${mod_authors}"
+
+description='''
+A content addon for Passive Skill Tree that adds additional Dark Fantasy themed progression trees.
+
+Includes Warrior and Mage skill trees, custom progression paths, specializations, requirements, translations and visual resources.
+
+Designed for Minecraft 1.21.1 with NeoForge.
+'''
+
+[[dependencies.${mod_id}]]
+modId="neoforge"
+type="required"
+versionRange="[${neo_version},)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="minecraft"
+type="required"
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="skilltree"
+type="required"
+reason="Dark Fantasy Skill Trees uses Passive Skill Tree as its skill tree engine."
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="irons_spellbooks"
+type="required"
+reason="The Mage skill tree uses attributes and progression content from Iron's Spells 'n Spellbooks."
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"

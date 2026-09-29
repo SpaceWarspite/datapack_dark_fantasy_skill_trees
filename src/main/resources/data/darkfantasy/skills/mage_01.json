@@ -1,0 +1,31 @@
+{
+  "requirements": [],
+  "positionY": 0.0,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/eye_green.png",
+  "buttonSize": 24,
+  "isStartingPoint": true,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_01_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:max_mana",
+      "operation": 0,
+      "amount": 10.0,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:mage_01",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [],
+  "oneWayConnections": [],
+  "positionX": 0.0
+}

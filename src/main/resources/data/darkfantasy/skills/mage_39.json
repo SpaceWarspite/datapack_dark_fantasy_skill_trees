@@ -1,0 +1,38 @@
+{
+  "requirements": [
+    {
+      "advancement": "irons_spellbooks:irons_spellbooks/staff_lightning_rod",
+      "type": "skilltree:advancement"
+    }
+  ],
+  "positionY": 142.512,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/arrow_diamond.png",
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_39_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "operation": 1,
+      "amount": 0.06,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:mage_39",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:mage_38"
+  ],
+  "oneWayConnections": [],
+  "positionX": -49.983
+}

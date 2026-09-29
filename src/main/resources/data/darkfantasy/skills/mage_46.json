@@ -1,0 +1,33 @@
+{
+  "requirements": [],
+  "positionY": 18.558,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bone.png",
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_46_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:summon_damage",
+      "operation": 1,
+      "amount": 0.07,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:mage_46",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:mage_45"
+  ],
+  "oneWayConnections": [],
+  "positionX": -124.87
+}

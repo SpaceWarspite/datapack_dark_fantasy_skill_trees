@@ -1,0 +1,38 @@
+{
+  "requirements": [
+    {
+      "advancement": "irons_spellbooks:irons_spellbooks/spell_book_blaze",
+      "type": "skilltree:advancement"
+    }
+  ],
+  "positionY": 14.022,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/torch.png",
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_23_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "operation": 1,
+      "amount": 0.06,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:mage_23",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:mage_22"
+  ],
+  "oneWayConnections": [],
+  "positionX": 150.371
+}

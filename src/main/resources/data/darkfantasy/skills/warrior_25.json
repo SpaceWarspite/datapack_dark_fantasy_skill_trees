@@ -1,0 +1,33 @@
+{
+  "requirements": [],
+  "positionY": 63.977,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/chestplate_fur.png",
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:warrior_25_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "minecraft:generic.knockback_resistance",
+      "operation": 1,
+      "amount": 0.05,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:warrior_25",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:warrior_24"
+  ],
+  "oneWayConnections": [],
+  "positionX": 136.268
+}
