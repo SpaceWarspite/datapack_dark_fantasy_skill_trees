@@ -1,0 +1,33 @@
+{
+  "requirements": [],
+  "positionY": -22.25718,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "irons_spellbooks:textures/item/divine_pearl.png",
+  "buttonSize": 12,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_70_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "operation": 1,
+      "amount": 0.03,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:mage_70",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:mage_01"
+  ],
+  "oneWayConnections": [],
+  "positionX": -20.04047
+}

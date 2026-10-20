@@ -1,0 +1,90 @@
+{
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:crafted",
+      "statId": "minecraft:respawn_anchor",
+      "minValue": 1
+    }
+  ],
+  "positionY": -36.053,
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/skull.png",
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_12_speed",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "multiplier": 0.15,
+      "type": "skilltree:block_break_speed"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_12_ore_xp",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "multiplier": 0.25,
+      "type": "skilltree:gained_experience",
+      "experience_source": "ore"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_12_durability_tool",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "chance": 0.05,
+      "type": "skilltree:item_durability_loss_avoidance",
+      "item_condition": {
+        "type": "skilltree:equipment_type",
+        "equipment_type": "tool"
+      }
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_12_durability_armor",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "chance": 0.05,
+      "type": "skilltree:item_durability_loss_avoidance",
+      "item_condition": {
+        "type": "skilltree:equipment_type",
+        "equipment_type": "armor"
+      }
+    }
+  ],
+  "id": "darkfantasy:miner_12",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:miner_05"
+  ],
+  "oneWayConnections": [],
+  "positionX": -48.584,
+  "description": [
+    {
+      "translate": "skill.darkfantasy.miner_12.description",
+      "with": [
+        {
+          "translate": "block.minecraft.respawn_anchor"
+        }
+      ]
+    }
+  ]
+}

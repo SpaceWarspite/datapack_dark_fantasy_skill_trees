@@ -5,11 +5,11 @@
       "type": "skilltree:advancement"
     }
   ],
-  "positionY": 69.0,
+  "positionY": -42.00000,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/notable.png",
   "iconTexture": "skilltree:textures/icons/eye_green.png",
-  "buttonSize": 20,
+  "buttonSize": 12,
   "isStartingPoint": false,
   "tags": [],
   "bonuses": [
@@ -47,5 +47,5 @@
     "darkfantasy:mage_58"
   ],
   "oneWayConnections": [],
-  "positionX": 0.0
+  "positionX": 18.00000
 }

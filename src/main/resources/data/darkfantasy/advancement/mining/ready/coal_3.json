@@ -1,0 +1,27 @@
+{
+  "parent": "darkfantasy:mining/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:coal_ore"
+    },
+    "title": {
+      "translate": "advancements.mining.ready.coal_3.title"
+    },
+    "description": {
+      "translate": "advancements.mining.ready.coal_3.description"
+    },
+    "hidden": true,
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "eligible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "eligible"
+    ]
+  ]
+}

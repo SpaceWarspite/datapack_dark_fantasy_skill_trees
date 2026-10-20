@@ -1,0 +1,60 @@
+{
+  "requirements": [
+    {
+      "type": "skilltree:advancement",
+      "advancement": "darkfantasy:mining/ready/ancient_debris_4"
+    }
+  ],
+  "positionY": -105.0,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "minecraft:textures/block/ancient_debris_side.png",
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": true,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mining_quest_ancient_debris_4_claim",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "type": "skilltree:command",
+      "command": "function darkfantasy:mining/claim/ancient_debris_4",
+      "description": "skill.darkfantasy.mining_quest_ancient_debris_4.reward",
+      "event_listener": {
+        "type": "skilltree:skill_learned",
+        "player_multiplier": {
+          "type": "skilltree:none"
+        }
+      }
+    }
+  ],
+  "id": "darkfantasy:mining_quest_ancient_debris_4",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [],
+  "oneWayConnections": [],
+  "positionX": 154.0,
+  "description": [
+    {
+      "translate": "skill.darkfantasy.mining_quest_ancient_debris_4.description",
+      "with": [
+        {
+          "text": "128"
+        }
+      ]
+    },
+    {
+      "translate": "skill.darkfantasy.mining_quest_ancient_debris_4.claim_description",
+      "with": [
+        {
+          "text": "26"
+        }
+      ]
+    }
+  ]
+}

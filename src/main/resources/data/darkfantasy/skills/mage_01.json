@@ -1,6 +1,6 @@
 {
   "requirements": [],
-  "positionY": 0.0,
+  "positionY": 0.00000,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/class.png",
   "iconTexture": "skilltree:textures/icons/eye_green.png",
@@ -27,5 +27,5 @@
   "longConnections": [],
   "directConnections": [],
   "oneWayConnections": [],
-  "positionX": 0.0
+  "positionX": 0.00000
 }

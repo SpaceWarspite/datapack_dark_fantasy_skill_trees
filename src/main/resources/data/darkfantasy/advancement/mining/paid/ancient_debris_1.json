@@ -1,0 +1,12 @@
+{
+  "criteria": {
+    "paid": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "paid"
+    ]
+  ]
+}

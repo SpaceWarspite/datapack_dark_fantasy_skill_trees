@@ -5,7 +5,7 @@
       "type": "skilltree:advancement"
     }
   ],
-  "positionY": 14.022,
+  "positionY": 26.04723,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/notable.png",
   "iconTexture": "skilltree:textures/icons/bone.png",
@@ -34,5 +34,5 @@
     "darkfantasy:mage_46"
   ],
   "oneWayConnections": [],
-  "positionX": -150.371
+  "positionX": -147.72117
 }

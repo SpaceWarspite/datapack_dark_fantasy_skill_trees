@@ -1,0 +1,19 @@
+{
+  "requirements": [],
+  "positionY": -8.44746,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "minecraft:textures/item/echo_shard.png",
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [],
+  "id": "darkfantasy:mage_94",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:mage_01"
+  ],
+  "oneWayConnections": [],
+  "positionX": 53.33517
+}

@@ -1,0 +1,60 @@
+{
+  "requirements": [
+    {
+      "type": "skilltree:advancement",
+      "advancement": "darkfantasy:mining/ready/redstone_4"
+    }
+  ],
+  "positionY": -105.0,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "minecraft:textures/block/redstone_ore.png",
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "isAlwaysStartingPoint": true,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mining_quest_redstone_4_claim",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "type": "skilltree:command",
+      "command": "function darkfantasy:mining/claim/redstone_4",
+      "description": "skill.darkfantasy.mining_quest_redstone_4.reward",
+      "event_listener": {
+        "type": "skilltree:skill_learned",
+        "player_multiplier": {
+          "type": "skilltree:none"
+        }
+      }
+    }
+  ],
+  "id": "darkfantasy:mining_quest_redstone_4",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [],
+  "oneWayConnections": [],
+  "positionX": 22.0,
+  "description": [
+    {
+      "translate": "skill.darkfantasy.mining_quest_redstone_4.description",
+      "with": [
+        {
+          "text": "4,096"
+        }
+      ]
+    },
+    {
+      "translate": "skill.darkfantasy.mining_quest_redstone_4.claim_description",
+      "with": [
+        {
+          "text": "11"
+        }
+      ]
+    }
+  ]
+}

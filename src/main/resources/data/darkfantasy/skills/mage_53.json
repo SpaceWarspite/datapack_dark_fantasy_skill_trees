@@ -1,9 +1,9 @@
 {
   "requirements": [],
-  "positionY": -71.547,
+  "positionY": -12.43067,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/void.png",
+  "iconTexture": "irons_spellbooks:textures/item/blood_vial.png",
   "buttonSize": 16,
   "isStartingPoint": false,
   "tags": [],
@@ -16,9 +16,22 @@
       "player_multiplier": {
         "type": "skilltree:none"
       },
-      "attribute": "irons_spellbooks:ender_spell_power",
+      "attribute": "irons_spellbooks:blood_spell_power",
       "operation": 1,
       "amount": 0.04,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_53_bonus_1",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:blood_magic_resist",
+      "operation": 1,
+      "amount": 0.02,
       "type": "skilltree:attribute"
     }
   ],
@@ -29,5 +42,5 @@
     "darkfantasy:mage_52"
   ],
   "oneWayConnections": [],
-  "positionX": -73.116
+  "positionX": -101.23970
 }

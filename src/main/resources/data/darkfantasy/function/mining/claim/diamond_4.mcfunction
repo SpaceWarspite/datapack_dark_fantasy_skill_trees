@@ -1,0 +1,1 @@
+execute if entity @s[advancements={darkfantasy:mining/ready/diamond_4=true}] unless entity @s[advancements={darkfantasy:mining/paid/diamond_4=true}] run function darkfantasy:mining/claim_once/diamond_4

@@ -1,16 +1,9 @@
 {
-  "requirements": [
-    {
-      "type": "skilltree:stat_value",
-      "statTypeId": "minecraft:killed",
-      "minValue": 10,
-      "statId": "minecraft:enderman"
-    }
-  ],
-  "positionY": -82.975,
+  "requirements": [],
+  "positionY": -56.19099,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/notable.png",
-  "iconTexture": "skilltree:textures/icons/void.png",
+  "iconTexture": "irons_spellbooks:textures/gui/spell_icons/heartstop.png",
   "buttonSize": 20,
   "isStartingPoint": false,
   "tags": [],
@@ -23,22 +16,9 @@
       "player_multiplier": {
         "type": "skilltree:none"
       },
-      "attribute": "irons_spellbooks:ender_spell_power",
+      "attribute": "irons_spellbooks:blood_spell_power",
       "operation": 1,
-      "amount": 0.05,
-      "type": "skilltree:attribute"
-    },
-    {
-      "player_condition": {
-        "type": "skilltree:none"
-      },
-      "id": "darkfantasy:mage_55_bonus_1",
-      "player_multiplier": {
-        "type": "skilltree:none"
-      },
-      "attribute": "irons_spellbooks:casting_movespeed",
-      "operation": 1,
-      "amount": 0.03,
+      "amount": 0.04,
       "type": "skilltree:attribute"
     }
   ],
@@ -49,5 +29,5 @@
     "darkfantasy:mage_54"
   ],
   "oneWayConnections": [],
-  "positionX": -126.187
+  "positionX": -139.07759
 }

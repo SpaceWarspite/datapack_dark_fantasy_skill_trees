@@ -1,0 +1,38 @@
+{
+  "requirements": [
+    {
+      "advancement": "darkfantasy:mage/eldritch_discovered",
+      "type": "skilltree:advancement"
+    }
+  ],
+  "positionY": 76.08953,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "minecraft:textures/item/echo_shard.png",
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_99_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "operation": 1,
+      "amount": 0.04,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:mage_99",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:mage_98"
+  ],
+  "oneWayConnections": [],
+  "positionX": 128.10692
+}

@@ -1,0 +1,46 @@
+{
+  "requirements": [],
+  "positionY": -104.19876,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "minecraft:textures/item/poisonous_potato.png",
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_83_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "operation": 1,
+      "amount": 0.05,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_83_bonus_1",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:cast_time_reduction",
+      "operation": 1,
+      "amount": 0.02,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:mage_83",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:mage_82"
+  ],
+  "oneWayConnections": [],
+  "positionX": 107.90097
+}

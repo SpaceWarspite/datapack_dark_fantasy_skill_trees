@@ -1,0 +1,31 @@
+{
+  "requirements": [],
+  "positionY": -59.136,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "minecraft:textures/item/iron_pickaxe.png",
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_07_speed",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "multiplier": 0.05,
+      "type": "skilltree:block_break_speed"
+    }
+  ],
+  "id": "darkfantasy:miner_07",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:miner_12"
+  ],
+  "oneWayConnections": [],
+  "positionX": -24.473
+}

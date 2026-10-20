@@ -1,0 +1,88 @@
+{
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:crafted",
+      "statId": "minecraft:enchanting_table",
+      "minValue": 1
+    }
+  ],
+  "positionY": 0.0,
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/eye_green.png",
+  "buttonSize": 32,
+  "isStartingPoint": true,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_06_speed",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "multiplier": 0.15,
+      "type": "skilltree:block_break_speed"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_06_ore_xp",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "multiplier": 0.25,
+      "type": "skilltree:gained_experience",
+      "experience_source": "ore"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_06_durability_tool",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "chance": 0.05,
+      "type": "skilltree:item_durability_loss_avoidance",
+      "item_condition": {
+        "type": "skilltree:equipment_type",
+        "equipment_type": "tool"
+      }
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_06_durability_armor",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "chance": 0.05,
+      "type": "skilltree:item_durability_loss_avoidance",
+      "item_condition": {
+        "type": "skilltree:equipment_type",
+        "equipment_type": "armor"
+      }
+    }
+  ],
+  "id": "darkfantasy:miner_06",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [],
+  "oneWayConnections": [],
+  "positionX": 0.0,
+  "description": [
+    {
+      "translate": "skill.darkfantasy.miner_06.description",
+      "with": [
+        {
+          "translate": "block.minecraft.enchanting_table"
+        }
+      ]
+    }
+  ]
+}

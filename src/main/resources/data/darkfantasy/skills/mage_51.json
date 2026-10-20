@@ -1,9 +1,9 @@
 {
   "requirements": [],
-  "positionY": -45.491,
+  "positionY": 14.88442,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
-  "iconTexture": "skilltree:textures/icons/void.png",
+  "iconTexture": "irons_spellbooks:textures/gui/spell_icons/ray_of_siphoning.png",
   "buttonSize": 16,
   "isStartingPoint": false,
   "tags": [],
@@ -16,9 +16,9 @@
       "player_multiplier": {
         "type": "skilltree:none"
       },
-      "attribute": "irons_spellbooks:ender_spell_power",
+      "attribute": "irons_spellbooks:blood_spell_power",
       "operation": 1,
-      "amount": 0.03,
+      "amount": 0.04,
       "type": "skilltree:attribute"
     }
   ],
@@ -29,5 +29,5 @@
     "darkfantasy:mage_50"
   ],
   "oneWayConnections": [],
-  "positionX": -32.32
+  "positionX": -51.90813
 }

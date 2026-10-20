@@ -1,0 +1,73 @@
+{
+  "requirements": [],
+  "positionY": -72.886,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "minecraft:textures/item/iron_pickaxe.png",
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_33_speed",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "multiplier": 0.05,
+      "type": "skilltree:block_break_speed"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_33_ore_xp",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "multiplier": 0.25,
+      "type": "skilltree:gained_experience",
+      "experience_source": "ore"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_33_durability_tool",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "chance": 0.05,
+      "type": "skilltree:item_durability_loss_avoidance",
+      "item_condition": {
+        "type": "skilltree:equipment_type",
+        "equipment_type": "tool"
+      }
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_33_durability_armor",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "chance": 0.05,
+      "type": "skilltree:item_durability_loss_avoidance",
+      "item_condition": {
+        "type": "skilltree:equipment_type",
+        "equipment_type": "armor"
+      }
+    }
+  ],
+  "id": "darkfantasy:miner_33",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:miner_32"
+  ],
+  "oneWayConnections": [],
+  "positionX": 136.794
+}

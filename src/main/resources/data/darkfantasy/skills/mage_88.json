@@ -1,0 +1,33 @@
+{
+  "requirements": [],
+  "positionY": -31.72546,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "minecraft:textures/item/emerald.png",
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_88_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "operation": 1,
+      "amount": 0.04,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:mage_88",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:mage_87"
+  ],
+  "oneWayConnections": [],
+  "positionX": 71.25655
+}

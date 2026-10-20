@@ -1,0 +1,90 @@
+{
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:crafted",
+      "statId": "minecraft:conduit",
+      "minValue": 1
+    }
+  ],
+  "positionY": 54.762,
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/heart_cyan.png",
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_18_speed",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "multiplier": 0.15,
+      "type": "skilltree:block_break_speed"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_18_ore_xp",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "multiplier": 0.25,
+      "type": "skilltree:gained_experience",
+      "experience_source": "ore"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_18_durability_tool",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "chance": 0.05,
+      "type": "skilltree:item_durability_loss_avoidance",
+      "item_condition": {
+        "type": "skilltree:equipment_type",
+        "equipment_type": "tool"
+      }
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_18_durability_armor",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "chance": 0.05,
+      "type": "skilltree:item_durability_loss_avoidance",
+      "item_condition": {
+        "type": "skilltree:equipment_type",
+        "equipment_type": "armor"
+      }
+    }
+  ],
+  "id": "darkfantasy:miner_18",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:miner_11"
+  ],
+  "oneWayConnections": [],
+  "positionX": 60.36,
+  "description": [
+    {
+      "translate": "skill.darkfantasy.miner_18.description",
+      "with": [
+        {
+          "translate": "block.minecraft.conduit"
+        }
+      ]
+    }
+  ]
+}

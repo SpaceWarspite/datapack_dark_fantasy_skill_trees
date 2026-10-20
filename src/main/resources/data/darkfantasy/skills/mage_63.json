@@ -1,0 +1,46 @@
+{
+  "requirements": [],
+  "positionY": -14.88442,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "minecraft:textures/item/ender_pearl.png",
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_63_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "operation": 1,
+      "amount": 0.04,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_63_bonus_1",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:casting_movespeed",
+      "operation": 1,
+      "amount": 0.02,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:mage_63",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:mage_62"
+  ],
+  "oneWayConnections": [],
+  "positionX": -51.90813
+}

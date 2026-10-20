@@ -1,0 +1,90 @@
+{
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:crafted",
+      "statId": "minecraft:beacon",
+      "minValue": 1
+    }
+  ],
+  "positionY": 99.267,
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/torch.png",
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_30_speed",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "multiplier": 0.15,
+      "type": "skilltree:block_break_speed"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_30_ore_xp",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "multiplier": 0.25,
+      "type": "skilltree:gained_experience",
+      "experience_source": "ore"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_30_durability_tool",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "chance": 0.05,
+      "type": "skilltree:item_durability_loss_avoidance",
+      "item_condition": {
+        "type": "skilltree:equipment_type",
+        "equipment_type": "tool"
+      }
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:miner_30_durability_armor",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "chance": 0.05,
+      "type": "skilltree:item_durability_loss_avoidance",
+      "item_condition": {
+        "type": "skilltree:equipment_type",
+        "equipment_type": "armor"
+      }
+    }
+  ],
+  "id": "darkfantasy:miner_30",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:miner_23"
+  ],
+  "oneWayConnections": [],
+  "positionX": 73.473,
+  "description": [
+    {
+      "translate": "skill.darkfantasy.miner_30.description",
+      "with": [
+        {
+          "translate": "block.minecraft.beacon"
+        }
+      ]
+    }
+  ]
+}

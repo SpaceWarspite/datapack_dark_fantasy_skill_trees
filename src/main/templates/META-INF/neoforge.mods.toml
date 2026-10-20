@@ -1,4 +1,4 @@
-modLoader="lowcodefml"
+modLoader="javafml"
 loaderVersion="${loader_version_range}"
 license="${mod_license}"
 
@@ -15,6 +15,9 @@ Includes Warrior and Mage skill trees, custom progression paths, specializations
 
 Designed for Minecraft 1.21.1 with NeoForge.
 '''
+
+[[mixins]]
+config="darkfantasy.mixins.json"
 
 [[dependencies.${mod_id}]]
 modId="neoforge"
@@ -34,7 +37,7 @@ side="BOTH"
 modId="skilltree"
 type="required"
 reason="Dark Fantasy Skill Trees uses Passive Skill Tree as its skill tree engine."
-versionRange="[0,)"
+versionRange="[1.0.0,)"
 ordering="NONE"
 side="BOTH"
 

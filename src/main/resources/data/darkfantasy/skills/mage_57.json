@@ -1,6 +1,6 @@
 {
   "requirements": [],
-  "positionY": -127.272,
+  "positionY": -108.38318,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
   "iconTexture": "skilltree:textures/icons/skull.png",
@@ -20,7 +20,7 @@
       },
       "attribute": "irons_spellbooks:blood_spell_power",
       "operation": 1,
-      "amount": 0.1,
+      "amount": 0.06,
       "type": "skilltree:attribute"
     },
     {
@@ -31,9 +31,9 @@
       "player_multiplier": {
         "type": "skilltree:none"
       },
-      "attribute": "irons_spellbooks:ender_spell_power",
+      "attribute": "irons_spellbooks:blood_magic_resist",
       "operation": 1,
-      "amount": 0.1,
+      "amount": 0.05,
       "type": "skilltree:attribute"
     },
     {
@@ -46,7 +46,7 @@
       },
       "attribute": "irons_spellbooks:spell_resist",
       "operation": 1,
-      "amount": -0.1,
+      "amount": -0.05,
       "type": "skilltree:attribute"
     }
   ],
@@ -57,5 +57,5 @@
     "darkfantasy:mage_56"
   ],
   "oneWayConnections": [],
-  "positionX": -151.677
+  "positionX": -166.89544
 }

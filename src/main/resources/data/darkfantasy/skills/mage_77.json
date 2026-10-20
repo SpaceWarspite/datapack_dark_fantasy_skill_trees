@@ -1,0 +1,61 @@
+{
+  "requirements": [],
+  "positionY": -180.35525,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "irons_spellbooks:textures/item/divine_pearl.png",
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "tags": [
+    "darkfantasy:mage_specialization"
+  ],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_77_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "operation": 1,
+      "amount": 0.05,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_77_bonus_1",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:holy_magic_resist",
+      "operation": 1,
+      "amount": 0.05,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_77_bonus_2",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:max_mana",
+      "operation": 0,
+      "amount": 10.0,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:mage_77",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:mage_76"
+  ],
+  "oneWayConnections": [],
+  "positionX": 84.10104
+}

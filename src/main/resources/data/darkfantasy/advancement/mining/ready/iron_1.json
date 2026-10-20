@@ -1,0 +1,27 @@
+{
+  "parent": "darkfantasy:mining/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_ore"
+    },
+    "title": {
+      "translate": "advancements.mining.ready.iron_1.title"
+    },
+    "description": {
+      "translate": "advancements.mining.ready.iron_1.description"
+    },
+    "hidden": true,
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "eligible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "eligible"
+    ]
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "requirements": [],
-  "positionY": 26.964,
+  "positionY": 26.91888,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/arrow_diamond.png",
-  "buttonSize": 16,
+  "buttonSize": 12,
   "isStartingPoint": false,
   "tags": [],
   "bonuses": [
@@ -29,5 +29,5 @@
     "darkfantasy:mage_01"
   ],
   "oneWayConnections": [],
-  "positionX": -13.151
+  "positionX": 13.12921
 }

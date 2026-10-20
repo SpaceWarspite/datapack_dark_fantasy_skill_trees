@@ -1,6 +1,6 @@
 {
   "requirements": [],
-  "positionY": 88.253,
+  "positionY": 98.52443,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/torch.png",
@@ -29,5 +29,5 @@
     "darkfantasy:mage_36"
   ],
   "oneWayConnections": [],
-  "positionX": -51.733
+  "positionX": -26.39954
 }

@@ -1,0 +1,61 @@
+{
+  "requirements": [],
+  "positionY": -180.35525,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "minecraft:textures/item/ender_pearl.png",
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "tags": [
+    "darkfantasy:mage_specialization"
+  ],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_69_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "operation": 1,
+      "amount": 0.06,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_69_bonus_1",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:ender_magic_resist",
+      "operation": 1,
+      "amount": 0.05,
+      "type": "skilltree:attribute"
+    },
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_69_bonus_2",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:spell_resist",
+      "operation": 1,
+      "amount": -0.03,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:mage_69",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:mage_68"
+  ],
+  "oneWayConnections": [],
+  "positionX": -84.10103
+}

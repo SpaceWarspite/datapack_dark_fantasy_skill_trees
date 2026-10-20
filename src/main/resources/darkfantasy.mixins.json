@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ivanhascov.darkfantasyskilltrees.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LearnSkillMessageAccessor",
+    "LearnSkillMessageGuardMixin"
+  ],
+  "client": [
+    "ClientAdvancementsAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

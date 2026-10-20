@@ -27,7 +27,11 @@ sourceSets.main.resources {
 }
 
 repositories {
-    // Add here additional repositories if required by some of the dependencies below.
+    maven { url = 'https://maven.fabricmc.net/' }
+    maven {
+        url = 'https://www.cursemaven.com'
+        content { includeGroup 'curse.maven' }
+    }
 }
 
 base {
@@ -116,6 +120,9 @@ configurations {
 }
 
 dependencies {
+    compileOnly 'net.fabricmc:sponge-mixin:0.15.2+mixin.0.8.7'
+    compileOnly 'curse.maven:passive-skill-tree-neoforge-1700303:8907245'
+
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"

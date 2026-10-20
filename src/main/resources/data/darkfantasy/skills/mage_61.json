@@ -9,11 +9,11 @@
       "type": "skilltree:learned_skill"
     }
   ],
-  "positionY": 123.0,
+  "positionY": -62.00000,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
   "iconTexture": "skilltree:textures/icons/eye_green.png",
-  "buttonSize": 32,
+  "buttonSize": 20,
   "isStartingPoint": false,
   "tags": [],
   "bonuses": [
@@ -90,5 +90,5 @@
     "darkfantasy:mage_60"
   ],
   "oneWayConnections": [],
-  "positionX": 0.0
+  "positionX": 74.00000
 }

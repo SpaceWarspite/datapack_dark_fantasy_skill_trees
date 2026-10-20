@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:echo_shard"
+    },
+    "title": {
+      "translate": "advancements.mage.eldritch_discovered.title"
+    },
+    "description": {
+      "translate": "advancements.mage.eldritch_discovered.description"
+    },
+    "frame": "task",
+    "hidden": true,
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "craft_manuscript": {
+      "conditions": {
+        "recipe_id": "irons_spellbooks:eldritch_manuscript"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "requirements": [
+    [
+      "craft_manuscript"
+    ]
+  ]
+}
