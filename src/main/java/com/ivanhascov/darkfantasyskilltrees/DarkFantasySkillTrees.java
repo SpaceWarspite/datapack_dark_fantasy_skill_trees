@@ -1,6 +1,7 @@
 package com.ivanhascov.darkfantasyskilltrees;
 
 import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.event.AddReloadListenerEvent;
 import net.neoforged.fml.common.Mod;
 
@@ -8,7 +9,8 @@ import net.neoforged.fml.common.Mod;
 public final class DarkFantasySkillTrees {
     public static final String MOD_ID = "darkfantasyskilltrees";
 
-    public DarkFantasySkillTrees() {
+    public DarkFantasySkillTrees(IEventBus modBus) {
+        SelfSpellDuration.register(modBus);
         NeoForge.EVENT_BUS.addListener(this::addReloadListener);
         NeoForge.EVENT_BUS.addListener(MiningQuestTracker::onPlayerTick);
         NeoForge.EVENT_BUS.addListener(MageEldritchUnlock::onPlayerLoggedIn);

@@ -9,7 +9,7 @@
       "type": "skilltree:learned_skill"
     }
   ],
-  "positionY": -62.00000,
+  "positionY": -62.0,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
   "iconTexture": "skilltree:textures/icons/eye_green.png",
@@ -27,7 +27,7 @@
       },
       "attribute": "irons_spellbooks:max_mana",
       "operation": 0,
-      "amount": 15.0,
+      "amount": 52.5,
       "type": "skilltree:attribute"
     },
     {
@@ -40,7 +40,7 @@
       },
       "attribute": "irons_spellbooks:spell_power",
       "operation": 1,
-      "amount": 0.05,
+      "amount": 0.175,
       "type": "skilltree:attribute"
     },
     {
@@ -53,7 +53,7 @@
       },
       "attribute": "irons_spellbooks:cooldown_reduction",
       "operation": 1,
-      "amount": 0.03,
+      "amount": 0.105,
       "type": "skilltree:attribute"
     },
     {
@@ -66,7 +66,7 @@
       },
       "attribute": "irons_spellbooks:cast_time_reduction",
       "operation": 1,
-      "amount": 0.03,
+      "amount": 0.105,
       "type": "skilltree:attribute"
     },
     {
@@ -79,7 +79,7 @@
       },
       "attribute": "irons_spellbooks:spell_resist",
       "operation": 1,
-      "amount": 0.03,
+      "amount": 0.105,
       "type": "skilltree:attribute"
     }
   ],
@@ -90,5 +90,5 @@
     "darkfantasy:mage_60"
   ],
   "oneWayConnections": [],
-  "positionX": 74.00000
+  "positionX": 74.0
 }

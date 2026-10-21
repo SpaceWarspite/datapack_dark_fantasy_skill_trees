@@ -23,7 +23,7 @@
       },
       "attribute": "irons_spellbooks:eldritch_spell_power",
       "operation": 1,
-      "amount": 0.03,
+      "amount": 0.105,
       "type": "skilltree:attribute"
     }
   ],

@@ -40,3 +40,6 @@ repo/
 !**/src/**/repo/
 __pycache__/
 *.pyc
+
+.audit/
+docs/superpowers/plans/

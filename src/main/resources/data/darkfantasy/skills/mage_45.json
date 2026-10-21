@@ -18,7 +18,7 @@
       },
       "attribute": "irons_spellbooks:spell_resist",
       "operation": 1,
-      "amount": 0.02,
+      "amount": 0.07,
       "type": "skilltree:attribute"
     }
   ],
@@ -29,5 +29,5 @@
     "darkfantasy:mage_44"
   ],
   "oneWayConnections": [],
-  "positionX": -92.44340
+  "positionX": -92.4434
 }

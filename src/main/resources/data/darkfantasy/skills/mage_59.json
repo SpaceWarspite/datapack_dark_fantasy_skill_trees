@@ -5,7 +5,7 @@
       "type": "skilltree:advancement"
     }
   ],
-  "positionY": -42.00000,
+  "positionY": -42.0,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/notable.png",
   "iconTexture": "skilltree:textures/icons/eye_green.png",
@@ -23,7 +23,7 @@
       },
       "attribute": "irons_spellbooks:spell_power",
       "operation": 1,
-      "amount": 0.03,
+      "amount": 0.105,
       "type": "skilltree:attribute"
     },
     {
@@ -36,7 +36,7 @@
       },
       "attribute": "irons_spellbooks:mana_regen",
       "operation": 1,
-      "amount": 0.03,
+      "amount": 0.105,
       "type": "skilltree:attribute"
     }
   ],
@@ -47,5 +47,5 @@
     "darkfantasy:mage_58"
   ],
   "oneWayConnections": [],
-  "positionX": 18.00000
+  "positionX": 18.0
 }

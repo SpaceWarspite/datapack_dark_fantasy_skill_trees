@@ -18,7 +18,7 @@
       },
       "attribute": "irons_spellbooks:blood_spell_power",
       "operation": 1,
-      "amount": 0.04,
+      "amount": 0.14,
       "type": "skilltree:attribute"
     },
     {
@@ -31,7 +31,7 @@
       },
       "attribute": "irons_spellbooks:blood_magic_resist",
       "operation": 1,
-      "amount": 0.02,
+      "amount": 0.07,
       "type": "skilltree:attribute"
     }
   ],
@@ -42,5 +42,5 @@
     "darkfantasy:mage_52"
   ],
   "oneWayConnections": [],
-  "positionX": -101.23970
+  "positionX": -101.2397
 }

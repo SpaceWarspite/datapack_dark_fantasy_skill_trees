@@ -1,6 +1,6 @@
 {
   "requirements": [],
-  "positionY": 41.36640,
+  "positionY": 41.3664,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/heart_cyan.png",
@@ -18,7 +18,7 @@
       },
       "attribute": "irons_spellbooks:spell_resist",
       "operation": 1,
-      "amount": 0.02,
+      "amount": 0.07,
       "type": "skilltree:attribute"
     }
   ],

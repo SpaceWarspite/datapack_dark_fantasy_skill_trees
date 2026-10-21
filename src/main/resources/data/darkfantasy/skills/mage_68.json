@@ -25,7 +25,7 @@
       },
       "attribute": "irons_spellbooks:ender_spell_power",
       "operation": 1,
-      "amount": 0.05,
+      "amount": 0.175,
       "type": "skilltree:attribute"
     },
     {
@@ -38,7 +38,7 @@
       },
       "attribute": "irons_spellbooks:cast_time_reduction",
       "operation": 1,
-      "amount": 0.02,
+      "amount": 0.07,
       "type": "skilltree:attribute"
     }
   ],
@@ -49,5 +49,5 @@
     "darkfantasy:mage_67"
   ],
   "oneWayConnections": [],
-  "positionX": -87.00000
+  "positionX": -87.0
 }

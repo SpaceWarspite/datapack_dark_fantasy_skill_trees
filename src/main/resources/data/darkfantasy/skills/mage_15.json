@@ -1,6 +1,6 @@
 {
   "requirements": [],
-  "positionY": -134.74794,
+  "positionY": -136,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/heart_cyan.png",
@@ -18,7 +18,7 @@
       },
       "attribute": "irons_spellbooks:spell_resist",
       "operation": 1,
-      "amount": 0.02,
+      "amount": 0.14,
       "type": "skilltree:attribute"
     }
   ],
@@ -29,5 +29,5 @@
     "darkfantasy:mage_14"
   ],
   "oneWayConnections": [],
-  "positionX": -34.11732
+  "positionX": -26
 }

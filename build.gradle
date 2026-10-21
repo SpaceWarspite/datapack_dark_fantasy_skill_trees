@@ -121,6 +121,7 @@ configurations {
 
 dependencies {
     compileOnly 'net.fabricmc:sponge-mixin:0.15.2+mixin.0.8.7'
+    compileOnly 'io.github.llamalad7:mixinextras-neoforge:0.5.3'
     compileOnly 'curse.maven:passive-skill-tree-neoforge-1700303:8907245'
 
     // Example optional mod dependency with JEI
@@ -187,6 +188,42 @@ publishing {
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+}
+
+sourceSets {
+    durationUnit {
+        compileClasspath += sourceSets.main.output
+    }
+}
+
+tasks.register('verifySpellDuration', JavaExec) {
+    dependsOn durationUnitClasses
+    classpath = files(sourceSets.main.output.classesDirs, sourceSets.durationUnit.output.classesDirs)
+    mainClass = 'com.ivanhascov.darkfantasyskilltrees.SpellDurationContextTest'
+    enableAssertions = true
+}
+
+tasks.named('check').configure {
+    dependsOn 'verifySpellDuration'
+}
+
+def durationSmokeMods = providers.gradleProperty('durationSmokeMods')
+if (durationSmokeMods.isPresent()) {
+    def smokeDependencies = fileTree(durationSmokeMods.get()) { include '*.jar' }
+    sourceSets {
+        durationSmoke {
+            compileClasspath += sourceSets.main.output + configurations.compileClasspath + smokeDependencies
+        }
+    }
+    dependencies {
+        localRuntime smokeDependencies
+    }
+    neoForge.mods.named(mod_id) {
+        sourceSet sourceSets.durationSmoke
+    }
+    neoForge.runs.gameTestServer {
+        gameDirectory = file('.audit/duration-smoke-run')
+    }
 }
 
 // IDEA no longer automatically downloads sources/javadoc jars for dependencies, so we need to explicitly enable the behavior.

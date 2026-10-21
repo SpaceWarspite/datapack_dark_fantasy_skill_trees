@@ -5,7 +5,7 @@
       "type": "skilltree:advancement"
     }
   ],
-  "positionY": -189.63542,
+  "positionY": -267,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
   "iconTexture": "skilltree:textures/icons/torch.png",
@@ -23,7 +23,7 @@
       },
       "attribute": "irons_spellbooks:cast_time_reduction",
       "operation": 1,
-      "amount": 0.08,
+      "amount": 0.2,
       "type": "skilltree:attribute"
     },
     {
@@ -36,7 +36,7 @@
       },
       "attribute": "irons_spellbooks:cooldown_reduction",
       "operation": 1,
-      "amount": 0.1,
+      "amount": 0.24,
       "type": "skilltree:attribute"
     },
     {
@@ -49,7 +49,7 @@
       },
       "attribute": "irons_spellbooks:max_mana",
       "operation": 0,
-      "amount": -15.0,
+      "amount": -50,
       "type": "skilltree:attribute"
     }
   ],
@@ -57,8 +57,8 @@
   "titleColor": "",
   "longConnections": [],
   "directConnections": [
-    "darkfantasy:mage_16"
+    "darkfantasy:mage_105"
   ],
   "oneWayConnections": [],
-  "positionX": -11.76472
+  "positionX": -101
 }

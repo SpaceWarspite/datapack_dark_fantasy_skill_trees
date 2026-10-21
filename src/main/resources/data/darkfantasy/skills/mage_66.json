@@ -18,7 +18,7 @@
       },
       "attribute": "irons_spellbooks:ender_spell_power",
       "operation": 1,
-      "amount": 0.04,
+      "amount": 0.14,
       "type": "skilltree:attribute"
     },
     {
@@ -31,7 +31,7 @@
       },
       "attribute": "irons_spellbooks:casting_movespeed",
       "operation": 1,
-      "amount": 0.03,
+      "amount": 0.105,
       "type": "skilltree:attribute"
     }
   ],
@@ -42,5 +42,5 @@
     "darkfantasy:mage_65"
   ],
   "oneWayConnections": [],
-  "positionX": -85.93180
+  "positionX": -85.9318
 }

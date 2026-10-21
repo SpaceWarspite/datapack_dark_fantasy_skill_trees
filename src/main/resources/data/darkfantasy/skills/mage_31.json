@@ -23,7 +23,7 @@
       },
       "attribute": "irons_spellbooks:ice_spell_power",
       "operation": 1,
-      "amount": 0.06,
+      "amount": 0.21,
       "type": "skilltree:attribute"
     }
   ],

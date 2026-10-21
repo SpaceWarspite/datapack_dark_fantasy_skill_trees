@@ -1,6 +1,6 @@
 {
   "requirements": [],
-  "positionY": -106.87497,
+  "positionY": -110,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/boots_gold.png",
@@ -18,7 +18,7 @@
       },
       "attribute": "irons_spellbooks:casting_movespeed",
       "operation": 1,
-      "amount": 0.03,
+      "amount": 0.21,
       "type": "skilltree:attribute"
     }
   ],
@@ -29,5 +29,5 @@
     "darkfantasy:mage_13"
   ],
   "oneWayConnections": [],
-  "positionX": -42.45870
+  "positionX": -37
 }

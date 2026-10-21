@@ -18,7 +18,7 @@
       },
       "attribute": "irons_spellbooks:max_mana",
       "operation": 0,
-      "amount": 5.0,
+      "amount": 17.5,
       "type": "skilltree:attribute"
     }
   ],

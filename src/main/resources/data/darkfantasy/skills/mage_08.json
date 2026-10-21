@@ -23,7 +23,7 @@
       },
       "attribute": "irons_spellbooks:max_mana",
       "operation": 0,
-      "amount": 20.0,
+      "amount": 70.0,
       "type": "skilltree:attribute"
     },
     {
@@ -36,7 +36,7 @@
       },
       "attribute": "irons_spellbooks:mana_regen",
       "operation": 1,
-      "amount": 0.03,
+      "amount": 0.105,
       "type": "skilltree:attribute"
     }
   ],

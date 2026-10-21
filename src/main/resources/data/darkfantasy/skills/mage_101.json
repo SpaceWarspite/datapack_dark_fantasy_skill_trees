@@ -5,7 +5,7 @@
       "type": "skilltree:advancement"
     }
   ],
-  "positionY": 114.35480,
+  "positionY": 114.3548,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "minecraft:textures/item/echo_shard.png",
@@ -23,7 +23,7 @@
       },
       "attribute": "irons_spellbooks:eldritch_spell_power",
       "operation": 1,
-      "amount": 0.04,
+      "amount": 0.14,
       "type": "skilltree:attribute"
     },
     {
@@ -36,7 +36,7 @@
       },
       "attribute": "irons_spellbooks:mana_regen",
       "operation": 1,
-      "amount": 0.01,
+      "amount": 0.035,
       "type": "skilltree:attribute"
     }
   ],

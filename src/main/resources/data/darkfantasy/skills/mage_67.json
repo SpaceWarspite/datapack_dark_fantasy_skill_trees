@@ -18,7 +18,7 @@
       },
       "attribute": "irons_spellbooks:ender_spell_power",
       "operation": 1,
-      "amount": 0.04,
+      "amount": 0.14,
       "type": "skilltree:attribute"
     },
     {
@@ -31,7 +31,7 @@
       },
       "attribute": "irons_spellbooks:ender_magic_resist",
       "operation": 1,
-      "amount": 0.03,
+      "amount": 0.105,
       "type": "skilltree:attribute"
     }
   ],

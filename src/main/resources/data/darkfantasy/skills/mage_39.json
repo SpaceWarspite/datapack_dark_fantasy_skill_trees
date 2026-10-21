@@ -23,7 +23,7 @@
       },
       "attribute": "irons_spellbooks:lightning_spell_power",
       "operation": 1,
-      "amount": 0.06,
+      "amount": 0.21,
       "type": "skilltree:attribute"
     }
   ],
@@ -34,5 +34,5 @@
     "darkfantasy:mage_38"
   ],
   "oneWayConnections": [],
-  "positionX": -75.00000
+  "positionX": -75.0
 }

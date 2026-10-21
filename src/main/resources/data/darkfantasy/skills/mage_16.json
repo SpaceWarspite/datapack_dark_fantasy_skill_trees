@@ -5,7 +5,7 @@
       "type": "skilltree:advancement"
     }
   ],
-  "positionY": -161.51114,
+  "positionY": -165,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/notable.png",
   "iconTexture": "skilltree:textures/icons/eye_green.png",
@@ -23,7 +23,7 @@
       },
       "attribute": "irons_spellbooks:cast_time_reduction",
       "operation": 1,
-      "amount": 0.05,
+      "amount": 0.17,
       "type": "skilltree:attribute"
     },
     {
@@ -36,7 +36,7 @@
       },
       "attribute": "irons_spellbooks:cooldown_reduction",
       "operation": 1,
-      "amount": 0.05,
+      "amount": 0.19,
       "type": "skilltree:attribute"
     }
   ],
@@ -47,5 +47,5 @@
     "darkfantasy:mage_15"
   ],
   "oneWayConnections": [],
-  "positionX": -21.98071
+  "positionX": -18
 }

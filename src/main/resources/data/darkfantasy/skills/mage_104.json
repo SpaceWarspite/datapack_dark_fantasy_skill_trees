@@ -1,0 +1,33 @@
+{
+  "requirements": [],
+  "positionY": -212,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/torch.png",
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_104_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "operation": 1,
+      "amount": 0.07,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:mage_104",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:mage_103"
+  ],
+  "oneWayConnections": [],
+  "positionX": -62
+}

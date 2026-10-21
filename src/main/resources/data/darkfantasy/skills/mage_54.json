@@ -18,7 +18,7 @@
       },
       "attribute": "irons_spellbooks:blood_spell_power",
       "operation": 1,
-      "amount": 0.05,
+      "amount": 0.175,
       "type": "skilltree:attribute"
     },
     {
@@ -31,7 +31,7 @@
       },
       "attribute": "irons_spellbooks:spell_power",
       "operation": 1,
-      "amount": 0.02,
+      "amount": 0.07,
       "type": "skilltree:attribute"
     },
     {
@@ -44,7 +44,7 @@
       },
       "attribute": "minecraft:generic.max_health",
       "operation": 0,
-      "amount": -1.0,
+      "amount": -3.5,
       "type": "skilltree:attribute"
     }
   ],

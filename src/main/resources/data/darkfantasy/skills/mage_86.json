@@ -1,6 +1,6 @@
 {
   "requirements": [],
-  "positionY": -24.53360,
+  "positionY": -24.5336,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "minecraft:textures/item/emerald.png",
@@ -18,7 +18,7 @@
       },
       "attribute": "irons_spellbooks:evocation_spell_power",
       "operation": 1,
-      "amount": 0.03,
+      "amount": 0.105,
       "type": "skilltree:attribute"
     }
   ],

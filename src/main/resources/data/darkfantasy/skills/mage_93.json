@@ -20,7 +20,7 @@
       },
       "attribute": "irons_spellbooks:evocation_spell_power",
       "operation": 1,
-      "amount": 0.05,
+      "amount": 0.175,
       "type": "skilltree:attribute"
     },
     {
@@ -33,7 +33,7 @@
       },
       "attribute": "irons_spellbooks:evocation_magic_resist",
       "operation": 1,
-      "amount": 0.05,
+      "amount": 0.175,
       "type": "skilltree:attribute"
     }
   ],

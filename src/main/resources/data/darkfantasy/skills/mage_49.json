@@ -20,7 +20,7 @@
       },
       "attribute": "irons_spellbooks:summon_damage",
       "operation": 1,
-      "amount": 0.2,
+      "amount": 0.7,
       "type": "skilltree:attribute"
     },
     {
@@ -33,7 +33,7 @@
       },
       "attribute": "irons_spellbooks:max_mana",
       "operation": 0,
-      "amount": 15.0,
+      "amount": 52.5,
       "type": "skilltree:attribute"
     },
     {
@@ -46,7 +46,7 @@
       },
       "attribute": "irons_spellbooks:spell_power",
       "operation": 1,
-      "amount": -0.08,
+      "amount": -0.28,
       "type": "skilltree:attribute"
     }
   ],
@@ -57,5 +57,5 @@
     "darkfantasy:mage_48"
   ],
   "oneWayConnections": [],
-  "positionX": -198.96970
+  "positionX": -198.9697
 }

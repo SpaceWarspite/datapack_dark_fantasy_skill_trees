@@ -18,7 +18,7 @@
       },
       "attribute": "irons_spellbooks:summon_damage",
       "operation": 1,
-      "amount": 0.07,
+      "amount": 0.245,
       "type": "skilltree:attribute"
     }
   ],
@@ -29,5 +29,5 @@
     "darkfantasy:mage_45"
   ],
   "oneWayConnections": [],
-  "positionX": -120.49440
+  "positionX": -120.4944
 }

@@ -20,7 +20,7 @@
       },
       "attribute": "irons_spellbooks:lightning_spell_power",
       "operation": 1,
-      "amount": 0.15,
+      "amount": 0.525,
       "type": "skilltree:attribute"
     },
     {
@@ -33,7 +33,7 @@
       },
       "attribute": "irons_spellbooks:cooldown_reduction",
       "operation": 1,
-      "amount": 0.05,
+      "amount": 0.175,
       "type": "skilltree:attribute"
     },
     {
@@ -46,7 +46,7 @@
       },
       "attribute": "irons_spellbooks:casting_movespeed",
       "operation": 1,
-      "amount": 0.05,
+      "amount": 0.175,
       "type": "skilltree:attribute"
     },
     {
@@ -59,7 +59,7 @@
       },
       "attribute": "irons_spellbooks:spell_resist",
       "operation": 1,
-      "amount": -0.05,
+      "amount": -0.175,
       "type": "skilltree:attribute"
     }
   ],

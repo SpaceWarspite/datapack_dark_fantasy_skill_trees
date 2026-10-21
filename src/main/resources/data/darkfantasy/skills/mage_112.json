@@ -1,0 +1,33 @@
+{
+  "requirements": [],
+  "positionY": -253,
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/torch.png",
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "tags": [],
+  "bonuses": [
+    {
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "id": "darkfantasy:mage_112_bonus_0",
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "attribute": "darkfantasyskilltrees:self_spell_duration",
+      "operation": 1,
+      "amount": 0.5,
+      "type": "skilltree:attribute"
+    }
+  ],
+  "id": "darkfantasy:mage_112",
+  "titleColor": "",
+  "longConnections": [],
+  "directConnections": [
+    "darkfantasy:mage_111"
+  ],
+  "oneWayConnections": [],
+  "positionX": -18
+}

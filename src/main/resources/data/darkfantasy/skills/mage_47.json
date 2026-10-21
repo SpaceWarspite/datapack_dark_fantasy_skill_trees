@@ -23,7 +23,7 @@
       },
       "attribute": "irons_spellbooks:summon_damage",
       "operation": 1,
-      "amount": 0.08,
+      "amount": 0.28,
       "type": "skilltree:attribute"
     }
   ],

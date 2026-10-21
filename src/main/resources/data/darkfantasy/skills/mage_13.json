@@ -1,6 +1,6 @@
 {
   "requirements": [],
-  "positionY": -78.34099,
+  "positionY": -83,
   "borderTexture": "skilltree:textures/tooltip/lesser.png",
   "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
   "iconTexture": "skilltree:textures/icons/torch.png",
@@ -18,7 +18,7 @@
       },
       "attribute": "irons_spellbooks:cooldown_reduction",
       "operation": 1,
-      "amount": 0.02,
+      "amount": 0.07,
       "type": "skilltree:attribute"
     }
   ],
@@ -29,5 +29,5 @@
     "darkfantasy:mage_12"
   ],
   "oneWayConnections": [],
-  "positionX": -46.29999
+  "positionX": -43
 }
